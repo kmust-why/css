@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单</title>
+</head>
+<body>
+    <h3>用户注册</h3>
+    <form action="http://www.baidu.com" method="get">
+        <div>
+            <label for="username">用户名：</label>
+            <input type="text" name="username" id="username">
+        </div>
+        <br>
+        <div>
+            <label for="pwd">密码&nbsp;&nbsp;&nbsp：</label>
+            <input type="password" name="passwd" id="pwd">
+        </div>
+        <br>
+        <div>
+            <label>性别&nbsp;&nbsp;&nbsp;：</label>
+            <input type="radio" name="gender" id="male" value="0"><label for="male">男</label>
+            <input type="radio" name="gender" id="female" value="1"><label for="female">女</label>
+        </div>
+        <br>
+        <div>
+            <label>爱好&nbsp;&nbsp;&nbsp;：</label>
+            <input type="file" name="photo">
+        </div>
+        <br>
+        <div>
+            <label>照片&nbsp;&nbsp;&nbsp;：</label>
+            <input type="checkbox" name="hobby" value="game" id="game"><label for="game">游戏</label>
+            <input type="checkbox" name="hobby" value="grogramming" id="grogramming"><label for="grogramming">编程</label>
+             <input type="checkbox" name="hobby" value="book" id="book"><label for="book">读书</label>
+        </div>
+        <br>
+        <div>
+            <label>描述&nbsp;&nbsp;&nbsp;：</label>
+            <textarea name="info"></textarea>
+        </div>
+        <br>
+        <div>
+            <label>籍贯&nbsp;&nbsp;&nbsp;：</label>
+            <select name="address">
+                <option value="0">上海</option>
+                <option value="1">北京</option>
+                <option value="2">云南</option>
+                <option value="3">贵州</option>
+            </select>
+        </div>
+        <br>
+        <input type="hidden" name="hid" value="100">
+        <input type="image" name="" src="">
+        <input type="submit" name="" value="提交">
+        <input type="reset" value="重置">
+        <input type="button" name="" value="按钮">
+    </form>
+</body>
+</html>

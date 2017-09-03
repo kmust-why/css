@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+}
+div{
+    color:orangered;
+    font-size:20px;
+    font-family:'font-family';
+    line-height:30px;
+    text-indent:40px;
+}
+em{
+    font-style: normal;
+}
+
+h1{
+    font-weight:normal;
+    text-align:center;
+}
+
+a{
+    text-decoration:none;
+}
